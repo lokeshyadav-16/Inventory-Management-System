@@ -1,0 +1,28 @@
+{
+  "name": "inventory-management-backend",
+  "version": "1.0.0",
+  "description": "Full-stack Inventory Management System - Express and MySQL Backend",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node --watch server.js",
+    "init-db": "node scripts/initDb.js",
+    "test-db": "node scripts/testDatabase.js",
+    "verify": "node scripts/verifyFullStack.js"
+  },
+  "keywords": [
+    "inventory",
+    "management",
+    "express",
+    "mysql",
+    "fsd-project"
+  ],
+  "author": "FSD Lab",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "mysql2": "^3.12.0"
+  }
+}
